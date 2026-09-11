@@ -22,7 +22,7 @@ The models were given the same task and allowed to make reasonable implementatio
 
 | Model | Harness | Result time | Summary |
 | --- | --- | ---: | --- |
-| Qwen3.8 27B GGUF UD-Q4_K_XL | llama.cpp + OpenCode | about 4 h 40 min | Completed the task, but struggled with clothing and detail cleanup. |
+| Qwen3.8 27B GGUF UD-Q4_K_XL | llama.cpp + OpenCode | about 4 h 40 min | Completed the task, but struggled with hands, clothing and detail cleanup. |
 | Luna | Codex | 15 min 11 s | Produced clearer modeling and better motion, but the body became very rounded and stylized. |
 | Astra | Codex | about 36 min | Produced the strongest overall result and required less visible correction. |
 
