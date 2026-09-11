@@ -1,0 +1,14 @@
+# Operating-system files
+.DS_Store
+
+# Local reference inputs. These are documented in references.md but not published.
+/image
+/image.jpeg
+/image2.png
+
+# Blender backups and scratch output
+*.blend1
+/output_astra/work/
+/output_astra/preview_frames/
+/output_luna/preview_frames/
+/output_luna/preview_frames_hi/
