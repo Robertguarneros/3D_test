@@ -20,11 +20,11 @@ Each model was asked to create a full-body, gender-neutral fitness avatar with:
 
 The models were given the same task and allowed to make reasonable implementation decisions. The comparison is qualitative rather than a scientific benchmark; the goal was to observe spatial reasoning, organic modeling, rigging, hand anatomy, animation, and error correction in a real Blender workflow.
 
-| Model | Harness | Result time | Summary |
-| --- | --- | ---: | --- |
-| Qwen3.8 27B GGUF UD-Q4_K_XL | llama.cpp + OpenCode | about 4 h 40 min | Completed the task, but struggled with hands, clothing and detail cleanup. |
-| Luna | Codex | 15 min 11 s | Produced clearer modeling and better motion, but the body became very rounded and stylized. |
-| Astra | Codex | about 36 min | Produced the strongest overall result and required less visible correction. |
+| Model | Harness | Reasoning | Result time | Summary |
+| --- | --- | --- | ---: | --- |
+| Qwen3.8 27B GGUF UD-Q4_K_XL | llama.cpp + OpenCode | xhigh | about 4 h 40 min | Completed the task, but struggled with clothing and detail cleanup. |
+| Luna | Codex | extra high | 15 min 11 s | Produced clearer modeling and better motion, but the body became very rounded and stylized. |
+| Astra | Codex | extra high | about 36 min | Produced the strongest overall result and required less visible correction. |
 
 ## Test machine and software
 
